@@ -18,6 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## Program:
+```
+#Developed By: JAGADEESH J
+Reg no :212223110015
+def circulate():
+    l=eval(input())
+    n=int(input())
+    l=l[n:]+l[:n]
+    print("After circulating the values are:",l)
+```
+## OUTPUT
+![alt text](image.png)
 
 ## Result:
 The output for circulate the values of n variables is successfull.
